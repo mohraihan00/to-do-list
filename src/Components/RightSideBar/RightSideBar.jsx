@@ -111,10 +111,6 @@ const RightSideBar = ({
         <Dropdown.Item href="#/today-tasks">No tasks today </Dropdown.Item>
       </Offcanvas.Body>
       <Footer>
-        <DeleteBtn onClick={handleDeleteAllTasks}>Delete all task</DeleteBtn>
-        <ProfileBtn>
-          <a href="https://github.com/ZiadSheriif/Todo-List">Open-Source on GitHub!</a>
-        </ProfileBtn>{" "}
         <DeleteTaskModal
           deleteTask={deleteTask}
           setDeleteTask={setDeleteTask}

@@ -13,7 +13,7 @@ import {
 } from "./LeftSideBar.styled";
 
 /**
- * Component that displays the left sidebar of the to-do list app, including options for different task views and the ability to add new tasks.
+ * Component that displays the left sidebar of the toolist app, including options for different task views and the ability to add new tasks.
  *
  * @param {Object} props - An object containing the following properties:
  *   setTasks {Function} - A function to set the tasks in the app.
@@ -34,7 +34,7 @@ const LeftSideBar = ({ setTasks, tasks }) => {
         scroll={true}
       >
         <Header>
-          <Offcanvas.Title>to-do list</Offcanvas.Title>
+          <Offcanvas.Title>toolist</Offcanvas.Title>
           <TaskBtn
             onClick={() => {
               setShowAddNewTask(true);
