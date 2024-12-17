@@ -61,7 +61,7 @@ const LeftSideBar = ({ setTasks, tasks }) => {
           </NavBtn>
           <NavBtn to="important-tasks">Important Tasks</NavBtn>
           <NavBtn to="completed-tasks">Completed Tasks</NavBtn>
-          <NavBtn to="uncompleted-tasks">Unompleted Tasks</NavBtn>
+          <NavBtn to="uncompleted-tasks">Uncompleted Tasks</NavBtn>
         </Offcanvas.Body>
       </OffcanvasContainer>
       <TaskModal
